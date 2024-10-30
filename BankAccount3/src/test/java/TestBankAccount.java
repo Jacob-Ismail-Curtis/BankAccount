@@ -19,8 +19,6 @@ public class TestBankAccount {
         bankAccount.withdraw(100);
         assertEquals(200,bankAccount.Balance);
 
-        bankAccount.withdraw(300);
-        assertThrows()
     }
 
 
