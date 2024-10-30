@@ -60,7 +60,7 @@ public class BankAccount {
 
     public void withdraw(double amount) {
         if (amount <= 0) {
-            throw new IllegalArgumentException("Withdrawal amount must be above 0")
+            throw new IllegalArgumentException("Withdrawal amount must be above 0");
         }
         if (balance-amount<minimumBalance){
             throw new IllegalArgumentException("Insufficient funds.");
